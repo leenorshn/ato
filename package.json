@@ -1,0 +1,33 @@
+{
+  "name": "meenor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "gcloud builds submit --tag gcr.io/faash-business/meenor-front"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/axios": "^5.13.1",
+    "@tailwindcss/forms": "^0.3.2",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.9.1",
+    "graphql-tag": "^2.11.0",
+    "nuxt": "^2.15.3",
+    "nuxt-highcharts": "^1.0.7",
+    "v-calendar": "^2.3.1",
+    "vue-chartjs": "^3.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/postcss7-compat": "^2.2.7",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0",
+    "webpack": "^4.46.0"
+  }
+}
